@@ -3,7 +3,6 @@ from sqlalchemy.orm import Session
 from typing import Dict, Any, List, Optional, Set
 from backend.database.database import get_db
 from backend.database import crud
-from backend.services.data_loader import get_user_rated_movies
 from backend.services.collaborative import get_collaborative_recommendations
 from backend.services.popularity import get_popularity_recommendations
 

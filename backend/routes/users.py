@@ -4,7 +4,6 @@ from backend.database.database import get_db
 from backend.database.models import User
 from backend.database.schemas import UserCreate, UserResponse
 from backend.database import crud
-from backend.services.data_loader import get_user_rated_movies
 
 router = APIRouter(prefix="/users", tags=["Users"])
 
