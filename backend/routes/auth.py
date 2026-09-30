@@ -9,7 +9,6 @@ from backend.database.database import get_db
 from backend.database import crud
 from backend.database.schemas import UserResponse
 from backend.utils.auth import hash_password, verify_password
-from backend.services.data_loader import get_user_rated_movies
 
 router = APIRouter(prefix="/auth", tags=["Authentication"])
 
